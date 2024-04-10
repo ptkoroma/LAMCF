@@ -3268,7 +3268,7 @@ button {
         font-size: 53%;
     }
     .lgx-header .lgx-navbar .lgx-logo a img {
-        max-width: 140px;
+        max-width: 256px;
         margin-top: 4px;
     }
     .lgx-header .lgx-navbar .lgx-nav li a {
