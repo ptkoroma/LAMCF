@@ -1,0 +1,16 @@
+
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set the base directory
+RewriteBase /
+
+# Redirect requests to index.html if the file does not exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
+
+#ERROR 404 PAGE
+ErrorDocument 404 /404.html

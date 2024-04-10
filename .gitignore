@@ -1,6 +1,5 @@
 # Ignore configuration files that may contain sensitive information.
 
-.htaccess
 Archive.zip
 assets_files/img/photo-gallery/NewConfrence
 
