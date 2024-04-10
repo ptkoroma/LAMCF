@@ -1,0 +1,34 @@
+# Ignore configuration files that may contain sensitive information.
+
+.htaccess
+Archive.zip
+assets_files/img/photo-gallery/NewConfrence
+
+# Ignore paths that contain user-generated content.
+
+
+# Ignore custom theme build artifacts
+
+
+#docroot/themes/custom/*/css
+ 
+# Ignore build artifacts
+ 
+
+# OS X
+ 
+# Thumbnails
+
+
+# Files that might appear on external disk
+ 
+# Windows image file caches
+ 
+
+# Folder config file
+ 
+
+# Recycle Bin used on file shares
+ 
+# Eclipse
+
