@@ -453,9 +453,11 @@ button {
 }
 .lgx-header {
     position: fixed;
-    top: 3rem;
+    top: 0rem;
     width: 100%;
     z-index: 9;
+    padding: 10px;
+    background: rgba(46, 40, 65, 0.71);
 }
 .lgx-header .lgx-inner {
     margin: 0 auto;
@@ -654,7 +656,7 @@ button {
     margin-top: 0.9rem;
 }
 .menu-onscroll .lgx-navbar .lgx-logo a img {
-    max-width: 250px;
+    max-width: 288px;
     margin-top: 0;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;
@@ -787,14 +789,15 @@ button {
     font-weight: 700;
 }
 .lgx-banner .title {
-    font-size: 6.8rem;
+    font-size: 5.8rem;
     line-height: 7.2rem;
     font-weight: 700;
     margin: 0 0 1rem;
-    text-transform: uppercase;
-    background: rgb(0 0 0 / 70%);
+    /* text-transform: uppercase; */
+    background: rgba(46, 40, 65, 0.56);
+    padding: 20px;
+  }
 
-}
 .lgx-banner .title span {
     color: #42bd41;
 }
@@ -3711,10 +3714,44 @@ button {
         padding-top: 4px;
     }
     .lgx-banner .title {
-        font-size: 3rem;
-        line-height: 6rem;
+        font-size: 2.3rem;
+        line-height: 9rem;
         margin: 0;
+        padding: 1px;
+        position: relative;
+        top: 66px;
     }
+    .lgx-banner .lgx-banner-style {
+        background: url(../img/schedule-bg-style.png) bottom left no-repeat;
+          background-position-x: left;
+          background-position-y: bottom;
+          background-size: auto;
+        -webkit-background-size: auto auto, cover;
+        -o-background-size: auto auto, cover;
+        -moz-background-size: auto auto, cover;
+        background-size: auto auto, cover;
+        background-position-y: -95px;
+        background-position-x: -130px;
+      }
+
+      .lgx-banner {
+        background: url(../img/banner-bg.jpg) bottom center no-repeat fixed;
+          background-position-x: center;
+          background-position-y: bottom;
+          background-repeat: no-repeat;
+          background-size: auto;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        color: #fff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -165px;
+        background-position-y: 56px;
+        background-size: 171%;
+      }
+
     .lgx-banner .date {
         font-size: 1.6rem;
         line-height: 3rem;
